@@ -22,12 +22,9 @@ public class MainActivity extends AppCompatActivity {
         user = (EditText) findViewById(R.id.user);
         password = (EditText) findViewById(R.id.password);
         btn = (Button) findViewById(R.id.btn);
-
-//        btn.setOnClickListener ((View) -> (
-//            startActivity(new Intent(MainActivity.this, SecondScreen.class));
         }
 
-        //Segunda opção
+        //second option
 
         public void clickButton (View view) {
             if (user.getText().toString().equals("Vinicius") && password.getText().toString().equals("123"))
